@@ -4,17 +4,17 @@ const parentDiv = document.getElementById('portfolio');
 const projects = [
 	{
 		title: 'Movie Theatre',
-		img: 'https://via.placeholder.com/150',
+		img: '/img/ss2.png',
 		description: 'This is a project',
 		repo: 'https://github.com',
-		live: 'https://github.com',
+		live: 'https://sarahcav97.github.io/movie-seat-booking/',
 	},
 	{
-		title: 'form valid8r',
+		title: 'Form Validator',
 		img: '/img/ss1.png',
 		description: 'This is a project',
 		repo: 'https://github.com',
-		live: 'https://github.com',
+		live: 'https://sarahcav97.github.io/form-validator/',
 	},
 ];
 
