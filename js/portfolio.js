@@ -16,6 +16,20 @@ const projects = [
 		repo: 'https://github.com',
 		live: 'https://sarahcav97.github.io/form-validator/',
 	},
+	{
+		title: 'Meal Finder',
+		img: '/img/ss3.png',
+		description: 'This is a project',
+		repo: 'https://github.com',
+		live: 'https://sarahcav97.github.io/meal-finder-app/',
+	},
+	{
+		title: 'Expense Tracker',
+		img: '/img/ss3.png',
+		description: 'This is a project',
+		repo: 'https://github.com',
+		live: 'https://sarahcav97.github.io/expense-tracker/',
+	},
 ];
 
 function createCard(item) {
@@ -49,9 +63,9 @@ function createCard(item) {
 	// create live link
 
 	const live = document.createElement('a');
+	live.innerHTML = '<i class="material-icons">computer</i>';
 	live.href = item.live;
 	live.target = '_blank';
-	live.innerText = 'Live';
 	// append elements to card
 	card.appendChild(img);
 	container.appendChild(title);
