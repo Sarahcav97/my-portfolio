@@ -25,7 +25,7 @@ const projects = [
 	},
 	{
 		title: 'Expense Tracker',
-		img: '/img/ss3.png',
+		img: '/img/ss4.png',
 		description: 'This is a project',
 		repo: 'https://github.com',
 		live: 'https://sarahcav97.github.io/expense-tracker/',
