@@ -32,7 +32,7 @@ const projects = [
 	},
 	{
 		title: 'Infinite Scroll',
-		img: '/img/img.png',
+		img: './img/img.png',
 		description: 'This is a project',
 		repo: 'https://github.com/Sarahcav97/infinite-scroll-posts',
 		live: 'https://sarahcav97.github.io/infinite-scroll-posts/',
