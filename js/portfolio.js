@@ -6,7 +6,7 @@ const projects = [
 		title: 'Movie Theatre',
 		img: './img/ss2.png',
 		description: 'This is a project',
-		repo: 'https://github.com',
+		repo: 'https://github.com/Sarahcav97/movie-seat-booking',
 		live: 'https://sarahcav97.github.io/movie-seat-booking/',
 	},
 	{
@@ -20,21 +20,21 @@ const projects = [
 		title: 'Meal Finder',
 		img: './img/ss3.png',
 		description: 'This is a project',
-		repo: 'https://github.com/meal-finder-app',
+		repo: 'https://github.com/Sarahcav97/meal-finder-app',
 		live: 'https://sarahcav97.github.io/meal-finder-app/',
 	},
 	{
 		title: 'Expense Tracker',
 		img: './img/ss4.png',
 		description: 'This is a project',
-		repo: 'https://github.com/expense-tracker',
+		repo: 'https://github.com/Sarahcav97/expense-tracker',
 		live: 'https://sarahcav97.github.io/expense-tracker/',
 	},
 	{
 		title: 'Infinite Scroll',
 		img: '/img/img.png',
 		description: 'This is a project',
-		repo: 'https://github.com/infinite-scroll-posts',
+		repo: 'https://github.com/Sarahcav97/infinite-scroll-posts',
 		live: 'https://sarahcav97.github.io/infinite-scroll-posts/',
 	},
 ];
