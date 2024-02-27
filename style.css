@@ -34,8 +34,8 @@ nav .logo {
 	text-align: center;
 }
 nav .logo img {
-	height: 75px;
-	width: 75px;
+	height: 100px;
+	width: 100px;
 	border-radius: 50%;
 }
 nav ul {
@@ -54,9 +54,7 @@ nav ul li a {
 	color: whitesmoke;
 	text-decoration: none;
 }
-nav ul li a:hover {
-	text-decoration: underline;
-}
+
 header {
 	background-color: var(--primary-color);
 	color: whitesmoke;
@@ -93,6 +91,9 @@ button:focus {
 .cta-btn {
 	padding: 12px 30x;
 	font-size: 20px;
+}
+.cta-btn:hover {
+	opacity: 0.8;
 }
 .container {
 	padding: 15px;
@@ -157,6 +158,39 @@ button:focus {
 	top: 0;
 	right: 0;
 }
+
+.mr-2 {
+	margin-right: 0.6em;
+}
+
+.flexBox {
+	display: flex;
+	justify-content: space-around;
+}
+.flexItem {
+	width: 50%;
+}
+.link {
+	text-decoration: none;
+	color: black;
+}
+.link:hover {
+	color: #be2edd;
+	filter: brightness(0) saturate(100%) invert(47%) sepia(95%) saturate(3493%)
+		hue-rotate(256deg) brightness(99%) contrast(101%);
+}
+.iconParent {
+	margin: 15px 0px;
+}
+.icon {
+	width: 18px;
+	color: black;
+}
+.icon:hover {
+	filter: brightness(0) saturate(100%) invert(47%) sepia(95%) saturate(3493%)
+		hue-rotate(256deg) brightness(99%) contrast(101%);
+}
+
 @keyframes modalopen {
 	from {
 		opacity: 0;
@@ -165,4 +199,19 @@ button:focus {
 	to {
 		opacity: 1;
 	}
+}
+
+.flexBetween {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.p-3 {
+	padding: 1.2rem;
+}
+.flexBetween a {
+	color: white;
+}
+.flexBetween .link {
+	color: white;
 }
