@@ -38,6 +38,20 @@ window.addEventListener('DOMContentLoaded', () => {
 			repo: 'https://github.com/Sarahcav97/infinite-scroll-posts',
 			live: 'https://sarahcav97.github.io/infinite-scroll-posts/',
 		},
+		{
+			title: 'React Job Search',
+			img: './img/img.png',
+			description: 'This is a project',
+			repo: 'https://github.com/Sarahcav97/react-job-search-app',
+			live: 'https://jobsearch.sarahcavs.com',
+		},
+		{
+			title: 'Infinite Scroll',
+			img: './img/img.png',
+			description: 'This is a project',
+			repo: 'https://github.com/Sarahcav97/infinite-scroll-posts',
+			live: 'https://sarahcav97.github.io/infinite-scroll-posts/',
+		},
 	];
 
 	function createCard(item) {
