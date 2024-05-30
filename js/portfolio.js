@@ -40,16 +40,16 @@ window.addEventListener('DOMContentLoaded', () => {
 		},
 		{
 			title: 'React Job Search',
-			img: './img/img.png',
+			img: './img/jobsearch.png',
 			description: 'This is a project',
 			repo: 'https://github.com/Sarahcav97/react-job-search-app',
 			live: 'https://jobsearch.sarahcavs.com',
 		},
 		{
-			title: 'Infinite Scroll',
-			img: './img/img.png',
-			description: 'This is a project',
-			repo: 'https://github.com/Sarahcav97/infinite-scroll-posts',
+			title: 'Ecommerce MERN',
+			img: './img/shop.png',
+			description: 'This MERN e-commerce app utilizes REACT build to ...',
+			repo: 'https://github.com/Sarahcav97/mern-ecommerce',
 			live: 'https://sarahcav97.github.io/infinite-scroll-posts/',
 		},
 	];
