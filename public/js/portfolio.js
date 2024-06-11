@@ -51,7 +51,7 @@ window.addEventListener('DOMContentLoaded', () => {
 			description:
 				'This MERN e-commerce app utilizes REACT build to create a user friendly shopping experience. It includes user authentication middleware to verify a user as well as create new accounts to access the shop/products.',
 			repo: 'https://github.com/Sarahcav97/mern-ecommerce',
-			live: 'https://sarahcav97.github.io/infinite-scroll-posts/',
+			live: 'https://shop.sarahcavs.com',
 		},
 	];
 
