@@ -4,44 +4,10 @@ window.addEventListener('DOMContentLoaded', () => {
 
 	const projects = [
 		{
-			title: 'Movie Theatre',
-			img: './img/ss2.png',
-			description: 'This is a project',
-			repo: 'https://github.com/Sarahcav97/movie-seat-booking',
-			live: 'https://sarahcav97.github.io/movie-seat-booking/',
-		},
-		{
-			title: 'Form Validator',
-			img: './img/ss1.png',
-			description: 'This is a project',
-			repo: 'https://github.com/form-validator',
-			live: 'https://sarahcav97.github.io/form-validator/',
-		},
-		{
-			title: 'Meal Finder',
-			img: './img/ss3.png',
-			description: 'This is a project',
-			repo: 'https://github.com/Sarahcav97/meal-finder-app',
-			live: 'https://sarahcav97.github.io/meal-finder-app/',
-		},
-		{
-			title: 'Expense Tracker',
-			img: './img/ss4.png',
-			description: 'This is a project',
-			repo: 'https://github.com/Sarahcav97/expense-tracker',
-			live: 'https://sarahcav97.github.io/expense-tracker/',
-		},
-		{
-			title: 'Infinite Scroll',
-			img: './img/img.png',
-			description: 'This is a project',
-			repo: 'https://github.com/Sarahcav97/infinite-scroll-posts',
-			live: 'https://sarahcav97.github.io/infinite-scroll-posts/',
-		},
-		{
 			title: 'React Job Search',
 			img: './img/jobsearch.png',
-			description: 'This is a project',
+			description:
+				'Provides an intuitive UI that allows users to search a JSON database for job postings via an Express server. Users can perform all CRUD operations on job listings which are stored as JSON.',
 			repo: 'https://github.com/Sarahcav97/react-job-search-app',
 			live: 'https://jobsearch.sarahcavs.com',
 		},
@@ -52,6 +18,46 @@ window.addEventListener('DOMContentLoaded', () => {
 				'This MERN e-commerce app utilizes REACT build to create a user friendly shopping experience. It includes user authentication middleware to verify a user as well as create new accounts to access the shop/products.',
 			repo: 'https://github.com/Sarahcav97/mern-ecommerce',
 			live: 'https://shop.sarahcavs.com',
+		},
+		{
+			title: 'Movie Theatre',
+			img: './img/ss2.png',
+			description:
+				'This application allows for the user to select a movie given a list in a provided drop down menu and then which seats they would like to book. The total for the transaction is calculated and displayed to allow the user to keep track of the expense.',
+			repo: 'https://github.com/Sarahcav97/movie-seat-booking',
+			live: 'https://sarahcav97.github.io/movie-seat-booking/',
+		},
+		{
+			title: 'Form Validator',
+			img: './img/ss1.png',
+			description:
+				'Provides a form validation component that ensures all minimum requirements are met when registering an account, including matching passwords, valid email, and username containing appropriate amount and type of characters.',
+			repo: 'https://github.com/form-validator',
+			live: 'https://sarahcav97.github.io/form-validator/',
+		},
+		{
+			title: 'Meal Finder',
+			img: './img/ss3.png',
+			description:
+				'Allows for a user to search for recipes using keywords or specific meal names. A query is made to the Meal DB API and results are displayed on the page.',
+			repo: 'https://github.com/Sarahcav97/meal-finder-app',
+			live: 'https://sarahcav97.github.io/meal-finder-app/',
+		},
+		{
+			title: 'Expense Tracker',
+			img: './img/ss4.png',
+			description:
+				'Allows a user to track transactions as expenses or income and calculates net amount in spending. The user is also able to label the transactions to describe how the money was spent or obtained (ie. rent, paycheck, shopping, etc.)',
+			repo: 'https://github.com/Sarahcav97/expense-tracker',
+			live: 'https://sarahcav97.github.io/expense-tracker/',
+		},
+		{
+			title: 'Infinite Scroll',
+			img: './img/img.png',
+			description:
+				'This project demonstrates a blog-type framework that displays posts via infinite-scroll. The user can also filter blog posts using keywords or phrases to narrow their search. ',
+			repo: 'https://github.com/Sarahcav97/infinite-scroll-posts',
+			live: 'https://sarahcav97.github.io/infinite-scroll-posts/',
 		},
 	];
 
